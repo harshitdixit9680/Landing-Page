@@ -100,7 +100,7 @@ user agent stylesheet div {
 
 
 .tag {
-  color: green;
+  color: #00b35a;
   font-size: 20px;
   line-height: 467%;
   font-weight: 732px;
@@ -148,7 +148,7 @@ ul {
 
 body hr {
   margin: -4px;
-  color: #0abe64;
+  color: #00b35a;
   border: 0;
   border-top: 15px solid;
   opacity: 0100;
@@ -157,6 +157,7 @@ body hr {
 .spp {
   width: 400px;
   padding-top: 94px;
+  background-color: #00b35a;
 }
 
 .set {
@@ -183,6 +184,7 @@ body hr {
 form.mktoForm .mktoRequiredField label.mktoLabel {
   display: inline-block !important;
   width: auto !important;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 .mktoForm .mktoRequiredField label.mktoLabel {
@@ -217,14 +219,14 @@ form.mktoForm .mktoRequiredField label.mktoLabel {
 }
 
 button.mktoButton {
-  background: rgb(5, 238, 5) !important;
+  background:#00b35a !important;
   padding: 10px 45px !important;
   font-size: 12px !important;
   line-height: 17px !important;
   letter-spacing: 1.5px !important;
   text-transform: uppercase !important;
-  background-color: rgb(5, 238, 5) !important;
-  border: 2px solid rgb(5, 238, 5) !important;
+  background-color: #00b35a !important;
+  border: 2px solid #00b35a !important;
   border-radius: 437px !important;
   text-align: left;
 }
@@ -264,3 +266,16 @@ p{
   /* font-size: 2px; */
   width: fit-content;
 }
+
+
+.texts{
+  position: relative;
+  margin-top: 0;
+  top: 109px;
+}
+
+.mktoForm .texts {
+  background-color: #00b35a;
+  margin-left: 49px;
+  margin-top: 18px;
+} 
