@@ -247,13 +247,21 @@ p{
     }
 }
 
+#mktoForm_1146{
+  margin-left: 60px;
+}
 @media (max-width: 658px){
+#mktoForm_1146{
+  margin-left: 136px;
+}
+
+
   .spp {
     /* width: 589px; */
     padding-top: 94px;
 
 
-    width: 400px;
+    width: 643px;
     padding-top: 94px;
     background-color: #00b35a;
 }
@@ -263,7 +271,7 @@ p{
   left: -49em;
 }
 .register-form .form-wrapper {
-  width: 400px;
+  width: 643px;
 }
 .register-form {
   width: 400px;
