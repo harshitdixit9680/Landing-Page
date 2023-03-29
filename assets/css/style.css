@@ -219,14 +219,14 @@ form.mktoForm .mktoRequiredField label.mktoLabel {
 }
 
 button.mktoButton {
-  background:#00b35a !important;
+  background:#03ff82 !important;
   padding: 10px 45px !important;
   font-size: 12px !important;
   line-height: 17px !important;
   letter-spacing: 1.5px !important;
   text-transform: uppercase !important;
-  background-color: #00b35a !important;
-  border: 2px solid #00b35a !important;
+  background-color: #03ff82 !important;
+  border: 2px solid #03ff82 !important;
   border-radius: 437px !important;
   text-align: left;
 }
@@ -249,16 +249,25 @@ p{
 
 @media (max-width: 658px){
   .spp {
-    width: 589px;
+    /* width: 589px; */
     padding-top: 94px;
+
+
+    width: 400px;
+    padding-top: 94px;
+    background-color: #00b35a;
 }
 .form {
   position: absolute;
-  top: 691px;
+  top: 749px;
   left: -49em;
 }
 .register-form .form-wrapper {
-  width: 588px;
+  width: 400px;
+}
+.register-form {
+  width: 400px;
+  margin-top: 0;
 }
 }
 
